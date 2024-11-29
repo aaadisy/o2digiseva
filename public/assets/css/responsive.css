@@ -1,0 +1,64 @@
+
+@media (min-width:992px) and (max-width:1199px) {
+.booking_form_area.wow.fadeInUp {margin-top: -175px;}
+.heading-service-title {position: relative;left: 0;width:100%;}
+.slick-slider {margin-top: 0 !important;}}
+@media (min-width:768px) and (max-width:991px) {
+.rural_about_sources {height: 300px;}}
+@media (min-width:768px) and (max-width:991px) {
+.rural_logo {margin-top: -11px;top: 0;padding: 15px 20px;padding-left: 0;}
+.navbar-contact-detail.toggle-original-elements {float: left;}
+.fixed .rural_logo {top: 1px;padding: 10px 15px;}
+.about_video::after, .about_video::before {display: none;}
+.about_video {padding-top: 20px;}
+
+/* service bottom section */
+.slick-slider {margin-top: 0 !important;}
+.heading-service-title {position:relative;width: 100%;left: 15px;}
+.booking_slider .booking_form_info .tab_img {padding-left: 0;}
+.booking_slider .booking_form_info .tab_img .b_overlay_bg {left: 0;width: 350px;}
+.boking_content {padding: 10px 20px 20px;}
+/* counter section */
+.counter {height: 275px;margin: 0 auto 26px;width: 275px;padding-top: 45px;}
+
+/* partner section */
+.rural_partner_section {padding: 120px 0 140px;}
+
+/* Footer section */
+.solar_footer::before {z-index: 9;}
+.solar_footer_shape {margin-top: 0;}
+}
+@media (max-width : 767px) {
+	/* Header section */
+.rural_menu_header {padding: 0px 10px 0px;}
+.header-informations {float: left;}	
+.header-informations .info-box {padding-left: 10px;}	
+.navbar-contact-detail .social-link {position: absolute;top: -44px;right: 0;}	
+.navbar-contact-detail .social-link ul li a {padding: 2px;font-size: 16px;color: #fff;}
+.rural_menu_header {height: auto;}
+.rural_logo {margin-top: 0px;top: 0;padding: 0px 70px;padding-left: 0;}
+.rural_logo img {width: 60%;}
+.rural_toggle {border: 2px solid #fff;padding: 4px;}
+
+/* about us section */
+.about_video::after, .about_video::before {display: none;}	
+.about_video {padding-top: 25px;}	
+
+/* services Bottom */	
+.slick-slider {margin-top: 0 !important;}	
+.heading-service-title {position: relative;width: 100%;left: 0;}
+.booking_slider .booking_form_info .tab_img {float: none;width: 100%;}
+.boking_content {padding: 10px 20px 20px;}
+
+/* Counter*/		
+.counter {height: 235px;width: 235px;}	
+
+/* Partner*/		
+.rural_partner_section {padding: 86px 0 110px;}
+
+/* Footer*/	
+.solar_copyright p {width: 69%;margin: 0 auto;}
+.solar_footer_shape {margin-top: 0;}	
+.solar_footer::before {z-index: 9;}}	
+@media (max-width : 575px) {.navbar-contact-detail .social-link {display: none;}.counter {height: 300px;width: 300px;margin: 0 auto;padding-top: 55px;}}
+@media (max-width : 767px) {.service_overlay_bg {position: absolute;top: -1px;bottom: 20px;width: 100%;background: #4176eb;margin: 0 auto;text-align: center;}}

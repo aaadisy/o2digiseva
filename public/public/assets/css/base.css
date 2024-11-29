@@ -1,0 +1,47 @@
+/* 03 - Slideshow */
+.slideshow {
+	position: relative;
+}
+.tp-banner,.tp-banner-2 {
+	width: 100%;
+	position: relative;
+}
+.tp-banner > ul > li,.tp-banner-2 > ul > li {
+	list-style: none;
+}
+.tp-bullets {
+	display: none;
+}
+.slideshow .tparrows {
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	text-align: center;
+	background-color: rgba(255,255,255,0.10);
+	z-index: 25;
+	cursor: pointer;
+	top: 50% !important;
+	display: inline-block;
+	opacity: 0;
+}
+.slideshow .tparrows:before {
+	font-size: 15px;
+	font-family: "FontAwesome";
+}
+.slideshow .tparrows.tp-leftarrow:before {
+	content: "\f053";
+}
+.slideshow .tparrows.tp-rightarrow:before {
+	content: "\f054";
+}
+.slideshow:hover .tparrows {
+	opacity: 1;
+}
+.boxed .slideshow .tparrows.tp-leftarrow,.boxed-2 .slideshow .tparrows.tp-leftarrow {
+	opacity: 1;
+	left: -70px !important;
+}
+.boxed .slideshow .tparrows.tp-rightarrow,.boxed-2 .slideshow .tparrows.tp-rightarrow {
+	opacity: 1;
+	right: -70px !important;
+}

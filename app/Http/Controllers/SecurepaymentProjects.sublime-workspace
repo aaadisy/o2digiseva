@@ -1,0 +1,572 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"acc",
+				"accountname"
+			],
+			[
+				"repi",
+				"reportid"
+			],
+			[
+				"in",
+				"increment"
+			],
+			[
+				"repo",
+				"reportid"
+			],
+			[
+				"strto",
+				"strtolower"
+			],
+			[
+				"bene",
+				"beneaccount"
+			],
+			[
+				"res",
+				"res_msg"
+			],
+			[
+				"jso",
+				"json_decode"
+			],
+			[
+				"user",
+				"userdata"
+			],
+			[
+				"aeps",
+				"aepsdata"
+			],
+			[
+				"pan",
+				"panel-default \tBootstrap 3 Class"
+			],
+			[
+				"pane",
+				"panel-heading \tBootstrap 3 Class"
+			],
+			[
+				"panel",
+				"panel-default \tBootstrap 3 Class"
+			],
+			[
+				"unse",
+				"unset"
+			],
+			[
+				"remitt",
+				"remitterotpForm"
+			],
+			[
+				"remite",
+				"remitterotpModal"
+			],
+			[
+				"remi",
+				"remitterotpForm"
+			],
+			[
+				"aep",
+				"aepsapi"
+			],
+			[
+				"tra",
+				"transactions"
+			],
+			[
+				"Aeps",
+				"Aepsreport"
+			],
+			[
+				"ou",
+				"outletregister"
+			],
+			[
+				"out",
+				"outletotp"
+			],
+			[
+				"re",
+				"required\tAttr"
+			],
+			[
+				"scheme",
+				"scheme_id"
+			],
+			[
+				"trans",
+				"transfer"
+			],
+			[
+				"stat",
+				"statuscode"
+			],
+			[
+				"user_",
+				"user_id"
+			],
+			[
+				"api",
+				"api_id"
+			],
+			[
+				"succe",
+				"successfully"
+			],
+			[
+				"BENE",
+				"BENEDELETE"
+			],
+			[
+				"otp",
+				"otpModal"
+			],
+			[
+				"su",
+				"submit\t.submit()"
+			],
+			[
+				"sea",
+				"serachForm"
+			],
+			[
+				"bee",
+				"benedatas"
+			],
+			[
+				"Tran",
+				"Transaction"
+			],
+			[
+				"firs",
+				"firstname"
+			],
+			[
+				"btn-s",
+				"btn-sm"
+			],
+			[
+				"lock",
+				"lockedAmt"
+			],
+			[
+				"rec",
+				"rechname"
+			],
+			[
+				"rechar",
+				"recharge1"
+			],
+			[
+				"fon",
+				"font-size\tproperty"
+			],
+			[
+				"wid",
+				"width\tproperty"
+			],
+			[
+				"bo",
+				"bottom\tproperty"
+			],
+			[
+				"pr",
+				"previousrecharge"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"Api",
+				"Apibalance"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"rea",
+				"readonly"
+			],
+			[
+				"rem",
+				"removeAttr\t.removeAttr()"
+			],
+			[
+				"a",
+				"a\tTag"
+			],
+			[
+				"img",
+				"img-responsive \tBootstrap 3 Class"
+			],
+			[
+				"Ae",
+				"Aepsreport"
+			],
+			[
+				"Aep",
+				"Aepsfundrequest"
+			],
+			[
+				"err",
+				"errors"
+			],
+			[
+				"app",
+				"append\t.append()"
+			],
+			[
+				"if",
+				"ifsc"
+			],
+			[
+				"company",
+				"company_id"
+			],
+			[
+				"wa",
+				"waves-effect"
+			],
+			[
+				"add",
+				"addForm"
+			],
+			[
+				"form",
+				"form-group \tBootstrap 3 Class"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"make",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"mak",
+				"Laravel Artisan 5: Make:Controller"
+			],
+			[
+				"clea",
+				"Laravel Artisan 5: Auth:Clear Resets"
+			],
+			[
+				"clear",
+				"Laravel Artisan 5: Clear Compiled"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/AepsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/layouts/sidebar.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/home.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/FundController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/routes/api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/layouts/topbar.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/layouts/app.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/resources/scheme.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/DmtController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Helpers/Permission.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Api/DmtController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/routes/api.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/service/uti.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Helpers/Permission.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/ActionController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/service/money.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/ActionController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Model/Report.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/HomeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/AepsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/home.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Model/Aepsurl.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Model/Aepsreport.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Api/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Api/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Android/MoneyController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Android/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Api/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Model/Aepstransaction.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/service/aeps.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/service/aeps.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Middleware/ApiCheck.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Api/AepsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Api/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/ImoneyController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Model/Aepsreport.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Model/Report.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/service/aepskyc.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/service/aepskyc.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Model/Setting.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/.env",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Model/Scheme.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Model/PortalSetting.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/CommonController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/CronController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Console/Kernel.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/service/billpay.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/routes/web.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/service/idmt.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Api/BillController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/MymoneyController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/layouts/sidebar.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/layouts/app.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/resources/views/statement/billpayment.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/MemberController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/SettingController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Http/Controllers/MemberController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/MemberController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/SettingController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/MemberController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/MemberController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/StatementController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/HomeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/FundController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/resources/views/fund/aepsrequest.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/statement/aepswallet.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/Android/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/resources/views/home.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Api/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/.env",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manishresale/app/Http/Controllers/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/member/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Http/Controllers/Android/UserController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/resource/scheme.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/ResourceController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/routes/web.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/statement/money.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/statement/fund.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Http/Controllers/Controller.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/CommonController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/member/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/member/create.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/member/commission.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/resource/commission.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/SetupController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Helpers/Permission.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/AepsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/DmtController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Controller.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Android/TransactionController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Android/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Android/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Model/Outlet.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edigital/app/Http/Controllers/BillpayController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/app/Providers/AppServiceProvider.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/manish/resources/views/service/billpay.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/lakshman/app/Http/Controllers/StatementController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/lakshman/app/Http/Controllers/RechargeController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Android/MoneyController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/Android/PancardController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/setup/portalsetting.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/layouts/pageheader.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/setup/operator.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/layouts/topbar.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/lakshman/resources/views/layouts/pageheader.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/statement/recharge.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/lakshman/resources/views/statement/recharge.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/app/Http/Controllers/StatementController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/.env",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/layouts/sidebar.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/layouts/app.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/usewa/resources/views/welcome.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Model/Setting.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/resources/views/member/index.blade.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Http/Controllers/AepsController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Helpers/Permission.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/app/Http/Controllers/StatementController.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/myself/edizipay/resources/views/statement/aeps.blade.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 366.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SecurepaymentProjects.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"style",
+				"manish/assets/css/style.css"
+			],
+			[
+				"core.css",
+				"nsdlpancard/assets/css/core.css"
+			],
+			[
+				"componen",
+				"edigital/assets/css/components.css"
+			],
+			[
+				"sty",
+				"edigitalfront/assets/css/style.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 244.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

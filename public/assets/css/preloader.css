@@ -1,0 +1,189 @@
+ 
+img {display:inline-block;max-width:100%;height:auto}
+.img-responsive {width:100%}
+
+.particles-js {position:fixed;top:100px;bottom:0;left:50%;min-width:1800px;transform:translateX(-50%);pointer-events:none;z-index:0}
+@media(min-width:1800px) {
+.particles-js {right:0;left:0;width:auto;transform:none}}
+.particles-js-2 {position:absolute;top:0;bottom:0;left:50%;min-width:1800px;transform:translateX(-50%);background:rgba(0,0,0,.05);pointer-events:none;z-index:0}
+ 
+.animated {animation-duration:.7s;animation-fill-mode:both;opacity:1}
+.animated.infinite {animation-iteration-count:infinite}
+.animated.hinge {animation-duration:2s}
+html:not(.lt-ie10) .not-animated {opacity:0}
+@keyframes fadeIn {0% {opacity:0}100% {opacity:1}}.fadeIn {animation-name:fadeIn}
+@keyframes fadeInUp {0% {opacity:0;transform:translate3d(0,60px,0)}100% {opacity:1;transform:none}}.fadeInUp {animation-name:fadeInUp}
+@keyframes fadeInDown {0% {opacity:0;transform:translate3d(0,-60px,0)}100% {opacity:1;transform:none}}.fadeInDown {animation-name:fadeInDown}
+@keyframes fadeInLeft {0% {opacity:0;transform:translate3d(-60px,0,0)}100% {opacity:1;transform:none}}.fadeInLeft {animation-name:fadeInLeft}
+@keyframes fadeInRight {0% {opacity:0;transform:translate3d(60px,0,0)}100% {opacity:1;transform:none}}.fadeInRight {animation-name:fadeInRight}
+@keyframes fadeOut {0% {opacity:1}100% {opacity:0}}.fadeOut {animation-name:fadeOut}
+@keyframes slideInUp {0% {transform:translate3d(0,100%,0);visibility:visible}100% {transform:translate3d(0,0,0)}}.slideInUp {animation-name:slideInUp}
+@keyframes slideInDown {0% {transform:translate3d(0,-100%,0);visibility:visible}100% {transform:translate3d(0,0,0)}}.slideInDown {animation-name:slideInDown}
+@keyframes slideInLeft {0% {transform:translate3d(-100%,0,0);visibility:visible}100% {transform:translate3d(0,0,0)}}.slideInLeft {animation-name:slideInLeft}
+@keyframes slideInRight {0% {transform:translate3d(100%,0,0);visibility:visible}100% {transform:translate3d(0,0,0)}}.slideInRight {animation-name:slideInRight}
+@keyframes slideOutDown {0% {transform:translate3d(0,0,0)}100% {visibility:hidden;transform:translate3d(0,100%,0)}}.slideOutDown {animation-name:slideOutDown}
+@keyframes motionY {0% {transform:none}25% {transform:translate3d(0,-15px,0)}50% {transform:none}75% {transform:translate3d(0,10px,0)}}
+/*---==========================Preloader Css=============--------*/
+ @keyframes cssload-animBefore {
+0% {transform:scale(1) translateY(-200%);z-index:1}25% {transform:scale(1.3) translateY(0);z-index:1}50% {transform:scale(1) translateY(200%);z-index:-1}
+75% {transform:scale(.7) translateY(0);z-index:-1}100% {transform:scale(1) translateY(-200%);z-index:-1}}
+@keyframes cssload-animAfter {0% {transform:scale(1) translateY(200%);z-index:-1}25% {transform:scale(.7) translateY(0);z-index:-1}
+50% {transform:scale(1) translateY(-200%);z-index:1}75% {transform:scale(1.3) translateY(0);z-index:1}100% {transform:scale(1) translateY(200%);z-index:1}} 
+.preloader {position:fixed;left:0;top:0;bottom:0;right:0;z-index:10000;display:flex;justify-content:center;
+align-items:center;padding:0px;background:#e6e6e6;transition:.3s all ease}
+.preloader.loaded {opacity:0;visibility:hidden}
+.preloader-body {text-align:center}
+.preloader-body img {margin-top:50px}
+.cssload-dots {display:inline-block;position:relative}
+.cssload-dots:not(:last-child) {margin-right:9px}
+.cssload-dots:before, .cssload-dots:after {content:"";display:inline-block;width:6px;height:6px;border-radius:50%;position:absolute}
+.cssload-dots:nth-child(1):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-1.04s;background-color:#00185d}
+.cssload-dots:nth-child(1):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-1.04s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(2):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-2.07s;background-color:#00185d}
+.cssload-dots:nth-child(2):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-2.07s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(3):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-3.11s; background-color:#00185d}
+.cssload-dots:nth-child(3):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-3.11s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(4):before {transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-4.14s;background-color:#00185d}
+.cssload-dots:nth-child(4):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-4.14s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(5):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-5.18s;background-color:#00185d}
+.cssload-dots:nth-child(5):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-5.18s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(6):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-6.21s;background-color:#00185d}
+.cssload-dots:nth-child(6):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-6.21s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(7):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-7.25s;background-color:#00185d}
+.cssload-dots:nth-child(7):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-7.25s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(8):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-8.28s;background-color:#00185d}
+.cssload-dots:nth-child(8):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-8.28s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(9):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-9.32s;background-color:#00185d}
+.cssload-dots:nth-child(9):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-9.32s;background-color:rgb(65, 118, 235)}
+.cssload-dots:nth-child(10):before {
+transform:translateY(-200%);animation:cssload-animBefore 1.15s linear infinite;animation-delay:-10.35s;background-color:#00185d}
+.cssload-dots:nth-child(10):after {
+transform:translateY(200%);animation:cssload-animAfter 1.15s linear infinite;animation-delay:-10.35s;background-color:rgb(65, 118, 235)}
+
+ 
+ 
+/*---========================== Slider  =============--------*/
+.swiper-container {display:flex;margin:0 auto;position:relative;overflow:hidden;height:auto;width:100%;z-index:1}
+.swiper-container-no-flexbox .swiper-slide {float:left}
+.swiper-container-vertical>.swiper-wrapper {flex-direction:column}
+.swiper-wrapper {position:relative;z-index:1;display:flex;align-self:stretch;align-items:stretch;width:100%;height:auto;min-height:inherit;transition-property:transform;
+box-sizing:content-box}
+.swiper-slide {position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0;width:100%;height:100%;}
+.swiper-container {flex-shrink:0}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {transform:translate3d(0,0,0)}
+.swiper-container-multirow>.swiper-wrapper {flex-wrap:wrap}
+.swiper-container-free-mode>.swiper-wrapper {transition-timing-function:ease-out;margin:0 auto}
+.swiper-container .swiper-notification {position:absolute;left:0;top:0;pointer-events:none;opacity:0;z-index:-1000}
+.swiper-wp8-horizontal {touch-action:pan-y}
+.swiper-wp8-vertical {touch-action:pan-x}
+.swiper-container-fade.swiper-container-free-mode .swiper-slide {transition-timing-function:ease-out}
+.swiper-container-fade .swiper-slide {pointer-events:none}
+.swiper-container-fade .swiper-slide .swiper-slide {pointer-events:none}
+.swiper-container-fade .swiper-slide-active,
+.swiper-container-fade .swiper-slide-active .swiper-slide-active {pointer-events:auto} 
+.swiper-slide>.vide__body,
+.swiper-slide>.parallax_cnt {height:100%}
+.swiper-button-prev,
+.swiper-button-next {position:absolute;top:50%;transform:translateY(-50%);display:none;font-size:26px;line-height:1;color:#fff;text-align:center;cursor:pointer;
+transition:.2s ease-in;will-change:transform;z-index:10}
+.swiper-button-prev:hover,
+.swiper-button-next:hover {color:#00185d}
+@media(min-width:768px) {.swiper-button-prev, .swiper-button-next {display:block;}}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {opacity:.35;cursor:auto;pointer-events:none}
+.swiper-button-prev {left:30px}
+.swiper-button-prev:before {font-family:fontawesome;content:"\f060"}
+.swiper-button-next {right:30px}
+.swiper-button-next:before {font-family:fontawesome;content:"\f061"}
+.swiper-slider.swiper-container-rtl .swiper-button-prev::before {content:"\f061"}
+.swiper-slider.swiper-container-rtl .swiper-button-next::before {content:"\f060"}
+
+/*---================ About us Section ==============-----**/
+.headings-default-subtitle {font-size: 74px;position: absolute;top: 11px;left: 0;text-transform: uppercase;color: rgba(255, 255, 255, 0.1);
+text-shadow: 0 4px 4px rgba(0,0,0,.04);z-index: -1;font-weight: 600;}
+ 
+
+/*---================ Recharge & Bill Payment Section ==============-----**/
+#recharge-slider-section {background: #1e4eca; }
+.recharge-slider-section-bg {background: url(../img/service-img/shadow2.html) no-repeat;z-index: -1;padding: 36px;max-width: 100%;background-size: cover;
+background-color: #1748c8;position: relative;width: 1718px;top: -19px;}
+#recharge-slider-section .headings-default-subtitle {text-align: right;float: right;width: 94%;font-size: 43px;}
+.recharge-classic {position: relative;text-align: left;}
+.recharge-classic-text {font-style: normal;font-weight: 400;color: #c8c8c8;font-size: 14px;text-align: justify;}
+.recharge-classic-text h4 {text-align: center;}
+.recharge-classic-text p {padding-top: 15px;}
+.recharge-classic-figure {position: absolute;top: 0;right: 65%;bottom: 0;left: 0}
+.recharge-classic-figure img {
+position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);min-height: 100%;min-width: 100%;width: auto;height: auto;max-width: none}
+.recharge-classic-figure img {left: 0;top: 0;width: 100%;height: 100%;transform: none;object-fit: cover;object-position: center center}}
+ @media(min-width:768px) {
+.recharge-classic {padding-top: 0;}}
+@media(min-width:992px) {
+.recharge-classic-figure {right: 52%;}}
+.recharge-swiper-wrapper {position: relative;z-index: 1;display: flex;align-self: stretch;align-items: stretch;width: 100%;height: auto;min-height: inherit;
+transition-property: transform;box-sizing: content-box}
+@keyframes swiper-preloader-spin {
+100% {transform: rotate(360deg)}}
+.swiper-button-prev, .swiper-button-next {position: absolute;top: 50%;transform: translateY(-50%);display: none;font-size: 32px;line-height: 1;color: #fff;
+text-align: center;cursor: pointer;transition: .2s ease-in;will-change: transform;z-index: 10}
+.swiper-button-prev:hover, .swiper-button-next:hover {color: #ff8d52}
+ @media(min-width:992px) {
+.swiper-button-prev, .swiper-button-next {display: block;}}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled {opacity: .35;cursor: auto;pointer-events: none}
+.swiper-button-prev {left: 30px}
+.swiper-button-prev:before {content: "\f177";}
+.swiper-button-next {right: 30px}
+.swiper-button-next:before {content: "\f178"}
+.swiper-pagination {
+position: absolute;display: block;text-align: center;font-size: 0;line-height: 0;transition: .3s;transform: translate3d(0, 0, 0);z-index: 10;}
+.swiper-pagination.swiper-pagination-hidden {opacity: 0;}
+.swiper-pagination.swiper-pagination-clickable .swiper-pagination-bullet {cursor: pointer}
+.swiper-pagination-bullet {position: relative;width: 24px;height: 24px;display: inline-block;border-radius: 100%;transition: .2s}
+.swiper-pagination-bullet::before {position: absolute;content: '';width: 0;height: 0;top: 50%;left: 50%;background: #5ac6e1;border-radius: 50%;
+transform: translate3d(-50%, -50%, 0);transition: all .3s ease}
+.swiper-pagination-bullet circle {fill: none;stroke-width: 2px;stroke-linecap: round;stroke-linejoin: round}
+.swiper-pagination-bullet.swiper-pagination-bullet-active, .swiper-pagination-bullet:hover {color: #fff}
+.swiper-pagination-bullet.swiper-pagination-bullet-active .swiper-bullet-line, .swiper-pagination-bullet:hover .swiper-bullet-line {opacity: 0;transition: all 0s ease-in-out .5s}
+.swiper-pagination-bullet.swiper-pagination-bullet-active::before {width: 6px;height: 6px}
+.swiper-bullet-line {stroke: rgba(255, 255, 255, .44)}
+.recharge-swiper-slider {width: 100%;white-space: normal}
+#recharge-slider-section {min-height: 29.89583vw}
+#recharge-slider-section .swiper-slide::before {
+position: absolute;content: '';top: 0;right: 0;bottom: 0;left: 0;background-repeat: no-repeat;background-position: 50% 50%;background-size: cover;z-index: 0}
+@media(min-width:768px) {
+#recharge-slider-section .swiper-slide::before {left: 35%}}
+@media(min-width:992px) {
+#recharge-slider-section .swiper-slide::before {left: 40%}
+#recharge-slider-section .swiper-pagination {display: none}}
+ @media(min-width:1200px) {
+#recharge-slider-section .swiper-slide::before {left: 50%}}
+.recharge-module {display: flex;align-items: center;position: absolute;padding: 10px 20px 10px;bottom: 0;right: 0;background: #1342bb;z-index: 1;}
+.recharge-module .swiper-button-next, .recharge-module .swiper-button-prev {position: static;width: 48px;height: 48px;top: auto;left: auto;font-size: 21px;
+line-height: 46px;transform: none;color: #047ed3;border: 2px solid #047ed3;border-radius: 50%;}
+.recharge-module .swiper-button-next:hover, .recharge-module .swiper-button-prev:hover {color: #a8bef7;border-color: #a8bef7;font-size: 28px;}
+.recharge-module>*+* {margin-left: 18px}
+ @media(min-width:1800px) {
+.recharge-module {padding: 30px 60px 15px}}
+.recharge-fraction {font-size: 24px;color: #0496ea;}
+.recharge-fraction-index {font-size: 40px;line-height: 1;font-weight: 300;color: #a8bef7;}
+.recharge-fraction-divider {padding: 0 5px;}
+.recharge-fraction-index {font-size: 45px}
+ 
